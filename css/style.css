@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    font-size: 20px;
+    display: inline-block;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    transition: all 1s;
+}
+
+.nav-list {
+    float: right;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+    color: white;
+}
+
+.nav-text a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 250ms linear;
+}
+
+.nav-text a:hover {
+    font-size: 25px;
+}
+
+.navbar-scrolled {
+    background-color: #000000;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15)
+}
+
+.logo-text {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bg-image img {
+    width: 100%;
+}
+
+.ab-me-head {
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.about-text p {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+#about {
+    transition: 500ms linear;
+    display: flex;
+}
+
+#projects {
+    transition: 500ms linear;
+}
+
+.project-head {
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.project-text {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.lang-icon {
+    text-align: center;
+    background-color: lightgray;
+    padding: 50px;
+}
+
+.lang-list img {
+    height: 100px;
+    width: auto;
+}
+
+.contact {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.contact-head {
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.contact-text {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.contact-btn a {
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #000000;
+    padding: 5px;
+    padding-top: 12px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    height: 50px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 50px;
+    transition: 300ms linear;
+}
+
+.contact-btn a:hover {
+    width: 200px;
+}
+
+.anchor-about {
+    display: block;
+    height: 400px; /*same height as header*/
+    margin-top: -400px; /*same height as header*/
+    visibility: hidden;
+}
+
+.anchor-projects {
+    display: block;
+    height: 400px; /*same height as header*/
+    margin-top: -400px; /*same height as header*/
+    visibility: hidden;  
+}
+
+.anchor-contact {
+    display: block;
+    height: 400px; /*same height as header*/
+    margin-top: -400px; /*same height as header*/
+    visibility: hidden;  
+}
+
+footer {
+    padding:40px 0;
+    background-color:#000000;
+    color:#ffffff;
+  }
+  
+  footer ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  footer li {
+    padding:0 10px;
+  }
+  
+  footer ul a {
+    color:white;
+    text-decoration:none;
+    opacity:0.8;
+    transition: 250ms linear;
+  }
+  
+  footer ul a:hover {
+    font-size: 20px;
+  }
+  
+  footer .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  footer .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ffffff;
+    margin:0 8px;
+    color: white;
+    opacity:0.75;
+  }
+  
+  footer .social > a:hover {
+    opacity:0.9;
+  }
+
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #6e6e6e #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #6e6e6e;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+  }
