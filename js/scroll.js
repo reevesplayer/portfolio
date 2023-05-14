@@ -7,3 +7,4 @@ window.addEventListener('scroll', () => {
         headerEL.classList.remove('navbar-scrolled')
     }
 });
+
