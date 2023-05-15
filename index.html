@@ -8,6 +8,8 @@
         <script defer src="js/scroll.js"></script>
         <script defer src="js/type.js"></script>
         <script defer src="js/scrollfade.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Space+Mono&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -16,9 +18,9 @@
                 <nav class="navbar">
                     <ul class="nav-list">
                         <li class="nav-text"><a href="#" style="text-decoration: underline;">HOME</a></li>
-                        <li class="nav-text"><a href="about.html">INFO</a></li>
-                        <li class="nav-text"><a href="projects.html">PROJECTS</a></li>
-                        <li class="nav-text"><a href="contact.html">CONTACT</a></li>
+                        <li class="nav-text"><a href="#about">INFO</a></li>
+                        <li class="nav-text"><a href="#projects">PROJECTS</a></li>
+                        <li class="nav-text"><a href="#contact">CONTACT</a></li>
                     </ul>
                 </nav>
             </div>
@@ -26,30 +28,30 @@
                 <div class="bg-text">
                     <h2>Reeves <a>Player</a></h2>
                 <div class="bg-small-text">
-                    <h3>
-                        <a href="" class="typewrite" data-period="2000" data-type='[ "I am a Software Engineer.", "I am a Front-End Developer.", "I am a Web Developer.", "Coding is my first language." ]'>
-                          <span class="wrap"></span>
-                        </a>
-                      </h3>
+                    <h3><a href="" class="typewrite" data-period="2000" data-type='[ "I am a Software Engineer.", "I am a Front-End Developer.", "I am a Web Developer.", "Coding is my first language." ]'><span class="wrap"></span></a></h3>
                 </div>
+                </div>
+                <div class="bg-image-2">
+                    <img src="/img/coding.svg" alt="coding">
                 </div>
             </div>
  
             <div class="ab-me">
                 <div class="ab-me-head">
-                    <h1>ABOUT ME</h1>
+                    <span class="anchor" id="about"></span>
+                    <img src="/img/ab-me.svg" alt="about-me">
                 </div>
-                    <div class="about-text">
-                        <p>Hi! I'm Reeves. I am a Software Engineer specializing in front-end development. I gained an interest in computers when parents brought home a brand-new
-                        original Xbox. The first of its kind. I have since grown to love the world of tech and evolved my knowledge of the industry. I excel in crafting and maintaining responsive and 
-                        interactive websites to increase the user experience. I have a deep passion for creating innovative and practical solutions to complex problems. 
-                        Additionaly, I have a commitment to delivering high-quality work within deadlines. With my expertise and dedication to development, I am confident in my 
-                        ability to contribute to the success of any project.
-                        <br>
-                        <br>
-                        <h3><a href="about.html" class="ab-see-more">SEE MORE</a></h3>
-                        </p>
-                    </div>
+                <div class="about-text">
+                    <br>
+                    <a class="about-text-head">ABOUT ME</a>
+                    <br>
+                    <p>
+                    Hi! I'm Reeves. I am a Software Engineer specializing in front-end development. I gained an interest in computers when parents brought home a brand-new
+                    original Xbox. The first of its kind. I have since grown to love the world of tech and evolved my knowledge of the industry. I excel in crafting and maintaining responsive and 
+                    interactive websites to increase the user experience. I have a deep passion for creating innovative and practical solutions to complex problems. 
+                    Additionaly, I have a commitment to delivering high-quality work within deadlines. With my expertise and dedication to development, I am confident in my 
+                    ability to contribute to the success of any project.
+                    </p>
                 </div>
             </div>
             
@@ -73,7 +75,7 @@
                 </ul>
             </div>
                 <div class="lang-head">
-                    <h2>MY <a>LANGUAGES</a></h2>
+                    <h2>&ltMY <a>LANGUAGES&gt</a></h2>
                     <div class="lang-text-list">
                         <ul>
                             <li>Front-End Development: <a>HTML5 / CSS3 / JavaScript / Bootstrap 5</a></li>
@@ -87,12 +89,12 @@
             
             <div class="pj-sec">
                 <div class="project-head">
-                    <h1>RECENT <a>PROJECTS</a></h1>
+                    <h1>&ltRECENT <a>PROJECTS&gt</a></h1>
+                    <span class="anchor" id="projects"></span>
                 </div>
                 <div class="project-grid">
                     <div class="cell cell-1">
-                        <h6></h6>
-                        <p><a href="/">Live Demo</a><br><a href="/">Source Code</a></p>
+                        <p><a href="thereeves.dev">Live Demo</a><br><a href="/">Source Code</a></p>
                     </div>
                     <div class="cell cell-2">
                         <p><a href="/">Live Demo</a><br><a href="/">Source Code</a></p>
@@ -101,7 +103,7 @@
                         <p><a href="/">Live Demo</a><br><a href="/">Source Code</a></p>
                     </div>
                     <div class="cell cell-4">
-                        <p><a href="/">Live Demo</a><br><a href="/">Source Code</a></p>
+                        <p><a href="/">Live Demo</a><br><a href="https://github.com/reevesplayer/reevesportfolio">Source Code</a></p>
                     </div>
                 </div>
                 <div class="project-grid-btn">
@@ -111,6 +113,7 @@
             <div class="contact">
                 <div class="contact-head">
                     <h2>CONTACT <a>ME</a></h2>
+                    <span class="anchor" id="contact"></span>
                 </div>
                 <div class="contact-text">
                     <p>
@@ -121,17 +124,15 @@
                     <h3><a href="mailto:reevesplayer@outlook.com">EMAIL</a></h3>
                 </div>
             </div>
-            <div>
             <footer>
                 <div class="social"><a href="https://github.com/reevesplayer" target="_blank"><i class="fa-brands fa-github""></i></a><a href="mailto:reevesplayer@outlook.com"><i class="fa-solid fa-envelope"></i></a><a href="https://www.linkedin.com/in/reeves-player-00154726b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div></a>
                     <ul>
                         <li><a href="#">HOME</a></li>
-                        <li><a href="about.html">INFO</a></li>
-                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="#about">INFO</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
                         <li><a href="resume.html">RESUME</a></li>
                         <li><a href="certifications.html">CERTIFICATIONS</a></li>                        
-                        <li><a href="contact.html">CONTACT</a></li>
-
+                        <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
             </footer>   
